@@ -35,15 +35,14 @@
             color: black; /* texto branco */
         }
         .unity-mobile #unity-loading-bar {
-            display: flex;
+          display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             position: absolute;
-            left: 0;
-            right: 0;
             top: 50%;
-            transform: translateY(-50%);
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
         .unity-mobile #unity-logo {
             display: none;
@@ -97,7 +96,7 @@
     <div id="unity-container" class="unity-mobile">
         <canvas id="unity-canvas" style="width: 100%; height: 100%; background: #0000; z-index: -99"></canvas>
         <div id="unity-loading-bar">
-            <img id="custom-logo" src="logo.png" alt="Custom Logo">
+            <img id="custom-logo" src="logo.jpg" alt="Custom Logo">
             <div id="unity-progress-bar-empty">
                 <div id="unity-progress-bar-full"></div>
             </div>
