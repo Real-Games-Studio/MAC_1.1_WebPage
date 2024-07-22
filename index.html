@@ -34,6 +34,25 @@
             background: white; /* fundo preto */
             color: black; /* texto branco */
         }
+        .unity-mobile #unity-loading-bar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .unity-mobile #unity-logo {
+            display: none;
+        }
+        #custom-logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -52,7 +71,7 @@
     <!-- <video id="webcam-video" muted autoplay playsinline style="width:100%; height:100%; object-fit:cover; position:absolute"></video> -->
     <canvas id="video-canvas" style="width:100%; height:100%; object-fit:cover; position:absolute"></canvas>
     <div id="startARDiv" class="ctaDiv">
-        <img src="logo.jpg" alt="Logo" style="width: 200px; height: 100px; margin-bottom: 20px;">
+        <img src="logo.png" alt="Logo" style="width: 100px; height: 100px; margin-bottom: 20px;">
         <select id="chooseCamSel" style="display: none;" onchange="SelectCam()"></select>
         <p style="text-align: center; width:60vw;">Esta experiência de realidade aumentada requer acesso à câmera do seu dispositivo.</p>
         <button id="startARButton" onclick="StartAR()" style="display:none">PERMITIR ACESSO</button>
@@ -78,7 +97,7 @@
     <div id="unity-container" class="unity-mobile">
         <canvas id="unity-canvas" style="width: 100%; height: 100%; background: #0000; z-index: -99"></canvas>
         <div id="unity-loading-bar">
-            <div id="unity-logo"></div>
+            <img id="custom-logo" src="logo.png" alt="Custom Logo">
             <div id="unity-progress-bar-empty">
                 <div id="unity-progress-bar-full"></div>
             </div>
