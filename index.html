@@ -247,7 +247,7 @@
             camDevices.forEach(mediaDevice => {
                 const option = document.createElement('option');
                 option.value = mediaDevice.deviceId;
-                let label = Camera ${count};
+                let label = `Camera ${count}`;
                 if (mediaDevice.label) {
                     label = mediaDevice.label
                 }
