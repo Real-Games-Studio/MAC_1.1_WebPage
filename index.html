@@ -19,7 +19,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: white; /* Fundo branco */
+            background-color: #FCC10D; /* Fundo atualizado para #FCC10D */
             color: black; /* Texto preto */
         }
         .ctaDiv {
@@ -49,6 +49,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: center; /* Centralizar texto */
+            background-color: #FCC10D; /* Fundo do loading atualizado para #FCC10D */
         }
         .unity-mobile #unity-logo {
             display: none;
@@ -64,10 +65,10 @@
 </head>
 <body>
     <!--IMAGETARGETS-->
-		<imagetarget id='logo' src='targets/logo cortado.png'></imagetarget>
-		<imagetarget id='quadro' src='targets/quadro.png'></imagetarget>
-		<imagetarget id='mezanino' src='targets/mezanino.png'></imagetarget>
-		<imagetarget id='logo' src='targets/logo cortado.png'></imagetarget>
+    <imagetarget id='logo' src='targets/logo cortado.png'></imagetarget>
+    <imagetarget id='quadro' src='targets/quadro.png'></imagetarget>
+    <imagetarget id='mezanino' src='targets/mezanino.png'></imagetarget>
+    <imagetarget id='logo' src='targets/logo cortado.png'></imagetarget>
 
     <video id="webcam-video" muted autoplay playsinline style="width:1px;position:absolute"></video>
     <!-- <video id="webcam-video" muted autoplay playsinline style="width:100%; height:100%; object-fit:cover; position:absolute"></video> -->
@@ -161,7 +162,7 @@
             loadingBar.style.display = "block";
         }
         //Set Facing Mode here ('environment', 'user', '')
-		window.unityFacingMode = "environment"
+        window.unityFacingMode = "environment"
         window.WEBCAM_SETTINGS = {
             video: {
                 facingMode: unityFacingMode,
