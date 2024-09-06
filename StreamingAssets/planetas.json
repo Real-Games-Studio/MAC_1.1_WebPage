@@ -1,0 +1,60 @@
+{
+    "planetas": [
+        {
+            "nome": "Mercurio",
+            "velocidadeOrbita": 47.87,
+            "velocidadeRotacao": 10.83,
+            "eixoOrbita": [0, 1, 0],
+            "eixoRotacao": [0, 1, 0]
+        },
+        {
+            "nome": "Venus",
+            "velocidadeOrbita": 35.02,
+            "velocidadeRotacao": -6.52,
+            "eixoOrbita": [0, 1, 0],
+            "eixoRotacao": [0, 1, 0]
+        },
+        {
+            "nome": "Terra",
+            "velocidadeOrbita": 29.78,
+            "velocidadeRotacao": 1674.4,
+            "eixoOrbita": [0, 1, 0],
+            "eixoRotacao": [0, 1, 0]
+        },
+        {
+            "nome": "Marte",
+            "velocidadeOrbita": 24.07,
+            "velocidadeRotacao": 868.22,
+            "eixoOrbita": [0, 1, 0],
+            "eixoRotacao": [0, 1, 0]
+        },
+        {
+            "nome": "Jupiter",
+            "velocidadeOrbita": 13.07,
+            "velocidadeRotacao": 45583,
+            "eixoOrbita": [0, 1, 0],
+            "eixoRotacao": [0, 1, 0]
+        },
+        {
+            "nome": "Saturno",
+            "velocidadeOrbita": 9.68,
+            "velocidadeRotacao": 36840,
+            "eixoOrbita": [0, 1, 0],
+            "eixoRotacao": [0, 1, 0]
+        },
+        {
+            "nome": "Urano",
+            "velocidadeOrbita": 6.81,
+            "velocidadeRotacao": -14794,
+            "eixoOrbita": [0, 1, 0],
+            "eixoRotacao": [0, 1, 0]
+        },
+        {
+            "nome": "Netuno",
+            "velocidadeOrbita": 5.43,
+            "velocidadeRotacao": 9719,
+            "eixoOrbita": [0, 1, 0],
+            "eixoRotacao": [0, 1, 0]
+        }
+    ]
+}
